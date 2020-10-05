@@ -1,0 +1,103 @@
+.table-sm {
+	font-size: 0.9rem;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+
+.table-stats {
+	font-size: 0.9rem;
+}
+
+.table-stats th,
+.table-stats td {
+  padding: 0.3rem;
+}
+
+.table-borderless {
+	border-top: none;
+}
+
+.channel-header {
+	font-size: 1.75em;
+}
+
+.channel-table-buttons {
+	width: max-content;
+}
+
+.dot {
+	cursor: help;
+	text-decoration: none;
+	border-bottom: 1px dashed #bfbfbf;
+	color: #212529;
+}
+
+.calc {
+	width: 100%;
+}
+
+.circle-success:before {
+  content: ' \25CF';
+  color: #28a745;
+  font-size: 20px;
+}
+
+.circle-danger:before {
+  content: ' \25CF';
+  color: #dc3545;
+  font-size: 20px;
+}
+
+@media (max-width: 575.98px) {
+	.position {
+		display: none;
+	}
+
+	.table-head {
+		display: none;
+	}
+
+	.subscribers {
+		display: none;
+	}
+
+	.views {
+		display: none;
+	}
+
+	.revenue {
+		display: none;
+	}
+
+	.table-active {
+		background-color: transparent;
+	}
+
+	.channel-header {
+		font-size: 1.4em;
+	}
+}
+
+@media (min-width: 767.98px) {
+	.calc {
+		width: 300px;
+		margin:0 auto;
+	}
+
+	.table-sm {
+		font-size: 1rem;
+	}
+
+	.table-sm th,
+	.table-sm td {
+	  padding: 0.6rem;
+	}
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
