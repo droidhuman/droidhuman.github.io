@@ -1,5 +1,5 @@
 // Vue package
-import Vue from 'vue'
+import Vue from 'vue';
 // Framevuerk main script
 import Framevuerk from 'framevuerk/dist/framevuerk.js'
 // Framevuerk main style
