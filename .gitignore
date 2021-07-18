@@ -1,5 +1,9 @@
 .idea
+<<<<<<< HEAD
 .DS_Store
 node_modules/
 dist/
 npm-debug.log
+=======
+.vscode
+>>>>>>> 6dd67b5ee29a078df5402d9d971f7b53919b86d0
