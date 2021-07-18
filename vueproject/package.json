@@ -1,0 +1,17 @@
+{
+  "name": "framevuerk",
+  "version": "3.0.0-beta57",
+  "description": "Fast, Responsive, Without Dependencies, Both Direction Support and Configurable UI Framework based on Vue.js.",
+  "main": "dist/framevuerk.js",
+  "scripts": {
+    "lint": "eslint . --ignore-path .eslintignore --ext .js,.vue -c .eslintrc.js --max-warnings 0",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "npm run lint",
+    "clean": "rimraf ./dist",
+    "build:lib": "node build --source lib -p",
+    "build:docs": "node build --source docs -p",
+    "build": "npm run build:lib && npm run build:docs",
+    "dev": "node build --source docs --watch",
+    "prepublishOnly": "./prepublish.sh"
+  }
+}
