@@ -10,7 +10,7 @@ header {
 	display: block;
 	width: 25px;
 	height: 17px;	
-	background: url(https://snipp.ru/demo/449/menu.png) 0 0 repeat;
+	background: url(./img/menu.png) 0 0 repeat;
 	position: absolute;
 	left: 15px;
 	top: 28px;
@@ -19,7 +19,7 @@ header {
 	display: block;
 	width: 28px;
 	height: 28px;	
-	background: url(https://snipp.ru/demo/449/close.png) 0 0 repeat;
+	background: url(./img/close.png) 0 0 repeat;
 	position: absolute;
 	right: 20px;
 	top: 20px;
