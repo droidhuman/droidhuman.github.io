@@ -1,3 +1,8 @@
+@media screen and (max-device-width:480px)
+{
+    body {
+        background-color: blue;
+    }
 header {
 	position: relative;
 }
@@ -50,4 +55,5 @@ header {
 }
 .body_pointer * {
 	cursor: pointer;
+}
 }
