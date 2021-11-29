@@ -2,6 +2,109 @@
 <html>
 <head>
 <title>Page Title</title>
+<link href='//fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Marck+Script&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" type="text/css" href="https://allnight.alco2.ru//css/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="https://allnight.alco2.ru//css/stylesheet_boxes.css" />
+<link rel="stylesheet" type="text/css" href="https://allnight.alco2.ru//css/stylesheet_ezpages_footer_columns.css" />
+<link rel="stylesheet" type="text/css" href="https://allnight.alco2.ru//css/stylesheet_basic.css" />
+<link rel="stylesheet" type="text/css" href="/https://allnight.alco2.ru/css/stylesheet_template.css" />
+<script type="text/javascript" src="https://allnight.alco2.ru//js/jscript_jquery-1.6.4.js"></script>
+<script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', '']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+<script type="text/javascript" src="https://allnight.alco2.ru/js/jscript2_ztms-0.3.x.js"></script>
+<script type="text/javascript" src="https://allnight.alco2.ru/js/jscript2_zztms_presets.js"></script>
+<script type="text/javascript" src="https://allnight.alco2.ru/js/jscript_zstickysidebar.jquery.js"></script>
+<script type="text/javascript" src="https://allnight.alco2.ru/js/jscript_xjquery.easing.1.3.js"></script>
+<script type="text/javascript" src="https://allnight.alco2.ru/js/jscript_zhover-image.js"></script>
+<script type="text/javascript">
+        $(window).load(function() {
+            $('.slider')._TMS({
+                prevBu: '.prev',
+                nextBu: '.next',
+                playBu: '.play',
+                duration: 800,
+                easing: 'easeOutQuad',
+                preset: 'diagonalFade',
+                pagination: true, //'.pagination',true,'<ul></ul>'
+                //pagNums:false,
+                slideshow: 6000,
+                numStatus: true,
+                banners: 'fade', // fromLeft, fromRight, fromTop, fromBottom
+                waitBannerAnimation: false,
+                progressBar: '<div class="progbar"></div>'
+            })
+        })
+    </script>
+<script type="text/javascript">
+        $(function() {
+            $(".block_right").stickySidebar({
+                timer: 100
+            });
+        });
+    </script>
+<script type="text/javascript">
+        (function() {
+            function async_load(u, id) {
+                if (!gid(id)) {
+                    s = "script", d = document,
+                        o = d.createElement(s);
+                    o.type = 'text/javascript';
+                    o.id = id;
+                    o.async = true;
+                    o.src = u;
+                    // Creating scripts on page
+                    x = d.getElementsByTagName(s)[0];
+                    x.parentNode.insertBefore(o, x);
+                }
+            }
+
+            function gid(id) {
+                return document.getElementById(id);
+            }
+            window.onload = function() {
+
+                e = gid("s-twitter");
+                e.setAttribute("data-lang", "ru");
+
+                e = gid("s-facebook");
+                e.setAttribute("data-layout", "button_count");
+                e.setAttribute("data-send", "false");
+
+                e = gid("s-google");
+                e.setAttribute("data-size", "medium");
+
+
+                async_load("//platform.twitter.com/widgets.js", "id-twitter"); //twitter
+                async_load("//connect.facebook.net/ru_RU/all.js#xfbml=1", "id-facebook"); //facebook
+                async_load("https://apis.google.com/js/plusone.js", "id-google"); //google
+                //async_load("//vk.com/js/api/openapi.js", "id-vkontakte");//vkontakte
+            };
+            // Инициализация vkontakte
+            window.vkAsyncInit = function() {
+                VK.init({
+                    apiId: 4165027,
+                    onlyWidgets: true
+                });
+                VK.Widgets.Like("vk_like", {
+                    type: "button",
+                    height: 20
+                });
+            };
+        })();
+    </script>
 <style>
 @media  screen and (min-width: 525px) {
   .main-pc {
